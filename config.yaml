@@ -1,6 +1,22 @@
 app:
-  page_title: ""
-  page_icon: ""
-  title: ""
+  page_title: "Wardrobe Manager"
+  page_icon: "👕"
+  title: "🔎👕 Wardrobe Manager 👚📈"
   onboarding:
-    - ""
+    - "## Welcome to the Wardrobe Manager! 👋"
+    - "### This app will help you keep track of the items in your wardrobe. 📈🤩"
+    - "- 1️⃣ To get started, take a picture of the items in your wardrobe. 📸"
+    - "- 2️⃣ Then, select the category of the item. 👚👕👔👖🩳"
+    - "- 3️⃣ Finally, select the date you wore the item. 📅"
+    - "### ✨ Once you've done that, you can submit the item to your wardrobe tracker. 📤☁️"
+  camera_instruction: "Take a picture of the items in your wardrobe 📸"
+  select:
+    instruction: "Select the category of the item: 👚👕👔👖🩳"
+    options:
+      - "T-Shirt 👕"
+      - "Blouse 👚"
+      - "Shirt 👔"
+      - "Pants 👖"
+      - "Shorts 🩳"
+  date_instruction: "Select the date you wore the item: 📅"
+  submit_instruction: "Submit the item to your wardrobe tracker: 📤☁️"
