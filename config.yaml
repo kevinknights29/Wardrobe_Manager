@@ -1,6 +1,7 @@
 app:
   page_title: "Wardrobe Manager"
   page_icon: "👕"
+home:
   title: "🔎👕 Wardrobe Manager 👚📈"
   onboarding:
     - "## Welcome to the Wardrobe Manager! 👋"
@@ -20,3 +21,5 @@ app:
       - "Shorts 🩳"
   date_instruction: "Select the date you wore the item: 📅"
   submit_instruction: "Submit the item to your wardrobe tracker: 📤☁️"
+tracker:
+  title: "📈 Wardrobe Tracker 📈"
