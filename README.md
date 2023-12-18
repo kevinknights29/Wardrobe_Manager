@@ -14,6 +14,8 @@ This project aims to create a webapp to keep track of your clothing usage.
 
 ---
 
+![image](https://github.com/kevinknights29/Wardrobe_Manager/assets/74464814/dc682d99-cab4-4668-9be5-de19b49af921)
+
 ## Overview
 
 ## Goals
