@@ -24,6 +24,46 @@ This project aims to create a webapp to keep track of your clothing usage.
 
 ## System Design
 
+```mermaid
+---
+title: Home Page Flow
+---
+flowchart LR
+    i([Take Item])
+    t1[Take Picture of Item]
+    t2[Classify Item]
+    d1{Wore Item?}
+    t3[Log Item Usgae]
+    o([Submit Item])
+    i --> t1
+    t1 --> t2
+    t2 --> d1
+    d1 -- Yes --> t3
+    d1 -- No --> o
+    t3 --> o
+```
+
+```mermaid
+---
+title: Submission Flow
+---
+flowchart LR
+    i([Recieve Data])
+    d1{Is Complete?}
+    t1[Transform Data]
+    t2[Create DB Connection]
+    d2{Succeeded?}
+    e([Raise Error])
+    o([Store Data in DB])
+    i --> d1
+    d1 -- Yes --> t1
+    d1 -- No --> e
+    t1 --> t2
+    t2 --> d2
+    d2 -- Yes --> o
+    d2 -- No --> e
+```
+
 ## Alternatives Considered
 
 ## Learning Logs
